@@ -85,6 +85,17 @@ main {
   transform: translate(2px, 2px);
 }
 
+.info-socials{
+  display: flex;
+  justify-content: space-between;
+  margin-top: .5em;
+  
+}
+
+.info-socials a{
+  color: #000;
+}
+
 @media (min-width: 768px) {
   .btn {
     padding: 1em 2.5em;
